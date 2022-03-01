@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Prueba unitaria en el componente <AddCategory /> Debe de retornar un snapshot del componente 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <p>
+    Insert category
+  </p>
+  <input
+    id="category"
+    onChange={[Function]}
+    onMouseDown={[Function]}
+    type="text"
+    value=""
+  />
+</form>
+`;

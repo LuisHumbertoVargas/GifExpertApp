@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Prueba unitaria en el componente <GifGrid /> Debe de hacer el snapShot del componente 1`] = `
+<Fragment>
+  <h3
+    className="animate__animated animate__fadeInTopLeft"
+  >
+    category
+  </h3>
+  <h3
+    className="animate__animated animate__flash"
+  >
+    Loading...
+  </h3>
+  <div
+    className="card-grid"
+  />
+</Fragment>
+`;
+
+exports[`Prueba unitaria en el componente <GifGrid /> Debe de mostrar items cuando se cargan imágenes "useFetchGifs" 1`] = `
+<Fragment>
+  <h3
+    className="animate__animated animate__fadeInTopLeft"
+  >
+    category
+  </h3>
+  <div
+    className="card-grid"
+  >
+    <GifGridItem
+      id="ChanchitoFeliz"
+      key="ChanchitoFeliz"
+      title="Cualquier cosa"
+      url="https://localhost/chanchitoFeliz/image.gif"
+    />
+  </div>
+</Fragment>
+`;
